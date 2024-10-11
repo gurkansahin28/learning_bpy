@@ -1,4 +1,8 @@
 ################################################################
+# checking the Python release
+>>> import sys
+>>> sys.version
+################################################################
 import bpy
 
 print("Hello from Blender!")
