@@ -22,3 +22,10 @@ for i, ob in enumerate(bpy.data.objects):
   print(i, ob.name, ob.type)
 
 ###############################################################
+# Header for Blender Scripting files
+import bpy
+from bpy import data as D
+from bpy import context as C
+from mathutils import *
+from math import *
+################################################################
