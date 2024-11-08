@@ -12,7 +12,7 @@ import bpy
 bom = bpy.ops.mesh
 bom.primitive_uv_sphere_add(radius=1)
 sphere = bpy.context.object
-sphere.name = "MySphere"  # Assign a specific name to the sphere
+sphere.name = "MySphere" 
 sphere.location = (0, 0, 0)
 sphere.rotation_euler = (1.0, 0.3, 0.2)
 MySphere = bpy.data.objects['MySphere']
